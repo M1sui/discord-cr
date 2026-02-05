@@ -1,6 +1,6 @@
 # discord-cr
 
-TODO: Write a description here
+A simple framework for make DiscordBot in the Crystal language.
 
 ## Installation
 

@@ -2,7 +2,7 @@ name: discord-cr
 version: 0.1.0
 
 authors:
-  - InstanceMethod <taku715taku715@gmail.com>
+  - InstanceMethod
 
 crystal: '>= 1.16.3'
 

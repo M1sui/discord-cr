@@ -12,19 +12,25 @@ TODO: Write a description here
        github: your-github-user/discord-cr
    ```
 
-2. Run `shards install`
+2. Run `shards` or `shards install` 
 
 ## Usage
 
 ```crystal
 require "discord-cr"
+
+bot = DiscordBot.new("TOKEN")
+
+bot.on_msg do |gid, cid, txt, uid, nic|
+  if txt == "ping"
+  bot.send(gid, cid, "pong!")
+end
+
+bot.run
 ```
 
-TODO: Write usage instructions here
+Currently, only the message reception event and message transmission function are available. 
 
-## Development
-
-TODO: Write development instructions here
 
 ## Contributing
 
